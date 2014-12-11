@@ -1,7 +1,8 @@
 numerical-analysis
 ==================
 
-Numerical integration and rootfinding methods at NCSSM
+Numerical integration and rootfinding methods implemented at NCSSM. Some were implemented with the help
+of [Patrick Jennings](https://github.com/JenningsPatrick).
 
 
 ## How to Use
