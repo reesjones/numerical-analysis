@@ -5,7 +5,7 @@ Numerical integration and rootfinding methods implemented at NCSSM. Some were im
 of [Patrick Jennings](https://github.com/JenningsPatrick).
 
 
-## How to Use
+# How to Use
 The scripts in this project are mostly applied numerical techniques - namely numerical integration,
 rootfinding, machine epsilon approximating, and binary conversions. Each file can be used for a specific
 numerical application.
@@ -31,7 +31,9 @@ use the defined functions to approximate roots. Arguments are more self-explanat
 Uses Newton's method to approximate the roots of a function. Use in the same way as ```rootfinding.py```.
 
 
-## Analysis of rootfinding algorithms
+
+
+# Analysis of rootfinding algorithms - when to use what
 
 ### Newton’s Method
 Newton’s method is a strong rootfinding method with a fairly simple concept. The rate of convergence can be very fast relative to Bisection and Secant. However, it has weaknesses. If the starting point is chosen at a vertex, the derivative at that point is zero and the method will never converge. Similarly, if a starting point is chosen that has a derivative with a very small magnitude, the method will take a long time to converge to a certain error tolerance.
